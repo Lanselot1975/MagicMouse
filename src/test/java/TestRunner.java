@@ -87,8 +87,8 @@ public class TestRunner {
 				Log.info("Verifying Accessories Page");
 				WebDriverWait wait = new WebDriverWait(driver, 15);
 		   	 	wait.until(ExpectedConditions.titleContains("Accessories"));
-			//	assertEquals(driver.getTitle(), "Accessories | ONLINE STORE");
-				assertEquals(driver.getTitle(), "Accessories");
+				assertEquals(driver.getTitle(), "Accessories | ONLINE STORE");
+			//	assertEquals(driver.getTitle(), "Accessories");
 			
 		    }catch (Exception e){
 
