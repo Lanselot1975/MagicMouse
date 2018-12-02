@@ -1,0 +1,18 @@
+<suite name="Firefox Test" >
+ <parameter name="browser" value="Firefox" />
+ <test name="Firefox MagicMouse" >
+  <classes>
+   <class name="test.java.TestRunner" preserve-order="true">
+          <methods>
+          <include name="launchSite" />
+          <include name="selectAccessories" />
+          <include name="addMagicMouseToCart" />
+          <include name="checkoutAndConfirmMagicMouse" />
+          <include name="clickOnContinue" />
+          <include name="enterBillDataAndPurchase" />
+          <include name="confirmOrder" />
+        </methods>
+   </class>
+  </classes>
+ </test>
+</suite>

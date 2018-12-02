@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test - Suite - Firefox]">
+  <parameter name="broswer" value="Firefox"/>
+  <test thread-count="5" name="MagicMouse - QA Firefox(failed)">
+    <classes>
+      <class name="test.java.TestRunner">
+        <methods>
+          <include name="addMagicMouseToCart"/>
+          <include name="launchSite"/>
+          <include name="enterBillDataAndPurchase"/>
+          <include name="setupAfterSuite"/>
+          <include name="selectAccessories"/>
+          <include name="setupBeforeSuite"/>
+          <include name="clickOnContinue"/>
+          <include name="confirmOrder"/>
+          <include name="checkoutAndConfirmMagicMouse"/>
+        </methods>
+      </class> <!-- test.java.TestRunner -->
+    </classes>
+  </test> <!-- MagicMouse - QA Firefox(failed) -->
+</suite> <!-- Failed suite [Test - Suite - Firefox] -->
